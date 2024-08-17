@@ -11,24 +11,29 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 4rem;
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 4.8rem;
+  font-weight: 600;
 }
 
 .desc {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 .buttons {
   display: flex;
   gap: 20px;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .button {
-  padding: 20px;
+  padding: 10px;
   min-width: 120px;
   cursor: pointer;
   border: none;

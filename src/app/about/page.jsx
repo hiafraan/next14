@@ -1,37 +1,29 @@
 import Image from "next/image";
 import styles from "./about.module.css";
 
-export const metadata = {
-  title: "About Page",
-  description: "About description",
-};
-
 const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h2 className={styles.subtitle}>About Agency</h2>
-        <h1 className={styles.title}>
-          We create digital ideas that are bigger, bolder, braver and better.
-        </h1>
+        <h2 className={styles.subtitle}>About Us</h2>
+        <h1 className={styles.title}>Innovative WordPress Solutions</h1>
         <p className={styles.desc}>
-          We create digital ideas that are bigger, bolder, braver and better. We
-          believe in good ideas flexibility and precission We’re world’s Our
-          Special Team best consulting & finance solution provider. Wide range
-          of web and software development services.
+          We create digital experiences that are innovative, impactful, and
+          tailored to your needs. From custom themes to powerful plugins, our
+          solutions elevate your online presence.
         </p>
         <div className={styles.boxes}>
           <div className={styles.box}>
             <h1>10 K+</h1>
-            <p>Year of experience</p>
+            <p>Years of Experience</p>
           </div>
           <div className={styles.box}>
-            <h1>10 K+</h1>
-            <p>Year of experience</p>
+            <h1>5 K+</h1>
+            <p>Projects Completed</p>
           </div>
           <div className={styles.box}>
-            <h1>10 K+</h1>
-            <p>Year of experience</p>
+            <h1>7 K+</h1>
+            <p>Satisfied Clients</p>
           </div>
         </div>
       </div>

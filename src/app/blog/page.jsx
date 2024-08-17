@@ -1,7 +1,7 @@
 import PostCard from "@/components/postCard/PostCard";
 import styles from "./blog.module.css";
 
-const BlogPage = async () => {
+const BlogPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.post}>

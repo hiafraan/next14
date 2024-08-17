@@ -5,14 +5,15 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1 className={styles.title}>Creative Thoughts Agency.</h1>
+        <h1 className={styles.title}>Crafting Powerful WordPress Solutions</h1>
         <p className={styles.desc}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-          blanditiis adipisci minima reiciendis a autem assumenda dolore.
+          Build a website that stands out with our custom WordPress themes,
+          plugins, and expert support. Whether you are a business or a blogger,
+          we turn your vision into reality.
         </p>
         <div className={styles.buttons}>
-          <button className={styles.button}>Learn More</button>
-          <button className={styles.button}>Contact</button>
+          <button className={styles.button}>Get Started Today</button>
+          <button className={styles.button}>View Our Work</button>
         </div>
         <div className={styles.brands}>
           <Image src="/brands.png" alt="" fill className={styles.brandImg} />
