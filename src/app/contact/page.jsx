@@ -1,23 +1,28 @@
-"use client";
-
 import Image from "next/image";
 import styles from "./contact.module.css";
 
+export const metadata = {
+  title: "Contact Page",
+  description: "Contact description",
+};
+
 const ContactPage = () => {
-  console.log("Testing...");
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <Image src="/contact.png" alt="" fill className={styles.img} />
       </div>
       <div className={styles.formContainer}>
-        <form action="" className={styles.form}>
-          <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Email Address" />
-          <input type="text" placeholder="Phone Number (Optional)" />
+        <form className={styles.form}>
+          <input type="text" placeholder="Name" name="user_name" />
+          <input type="text" placeholder="Email Address" name="user_email" />
+          <input
+            type="text"
+            placeholder="Phone Number (Optional)"
+            name="user_phone"
+          />
           <textarea
-            name=""
-            id=""
+            name="message"
             cols="30"
             rows="10"
             placeholder="Message"
